@@ -1,5 +1,6 @@
-const checkNumber =  (n: number) => {
-  if (isNaN(Number(n)) && n > 0) return "Please enter a valid number. Try again";
+export const checkNumber =  (n: number | string) => {
+  if(typeof n === "string") return  { result: [], message: "Please enter a valid number. Try again"};
+  if (n < 0) return {result: [], message: "Please enter a valid number. Try again"}
   return {
     result: primeFactors(n),
     message: 'Your result was successful'
