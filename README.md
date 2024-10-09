@@ -22,7 +22,6 @@ Set up the project to use ESLint with the recommended lint config. You can find 
 
 Set up the project to use the _Jest_ as test runner. You can find the instructions on how to we recommend using it [here](https://github.com/appliedtechnology/jsfs-lab-testingDemo).
 
-
 ### Lab instructions
 
 #### Prime numbers
